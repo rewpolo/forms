@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.formBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+fieldset {
+  border-radius: 5px;
+}
+
+legend {
+  background-color: black;
+  color: white;
+}
+
+.userInfo {
+  display: grid;
+
+}
+
+.radio {
+  padding-bottom: 1em;
+}
+
+#comments {
+  margin-top: 1rem;
+}
+
+.date, .checkboxes {
+  margin: 1em 0;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+}
